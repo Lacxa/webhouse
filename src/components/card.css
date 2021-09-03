@@ -1,19 +1,96 @@
-body{ background-image: url('/home/library-07/webhouse/src/components/back.jpeg');
+body{ background-image: url('back .png');
       background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
 }
 
 .card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
+  margin: 2rcm 2rcm 2rcm 0;
+  padding: 1.5rcm;
+  width: 250px;
+  z-index: 4;
+  margin-bottom: 2;
+  box-shadow: 0 0 4px  rgba(0,0,0,0.1);
+  transition:  transform .3s case;
+  cursor: pointer;
+
+
 }
 
-/* On mouse-over, add a deeper shadow */
+
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1);
+
+} 
+
+.card__image {
+  display: flex;
+  justify-content: flex-end;
 }
 
-/* Add some padding inside the card container */
+.card__image__img {
+  border-radius: 50%;
+}
+
+
 .container {
   padding: 2px 16px;
+}
+
+.all {
+  display: flex;
+  flex-direction: row;
+}
+
+.house
+{
+  position:absolute;
+  z-index: 1;
+}
+
+
+.logo
+{
+  position:absolute;
+  top: 25px;
+  left: 25px;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+}
+.text
+{
+  position: absolute;
+  top: 17px;
+  right: 70px;
+  z-index: 3;
+}
+
+
+
+#home { 
+  text-align: center;
+  float:left;
+  width: 33.30%;
+}
+
+
+#features { 
+  text-align: center;
+  float:left;
+  width: 33.3%;
+}
+
+#work { 
+  text-align: center;
+  float:left;
+  width: 33.3%;
+}
+
+#help { 
+  text-align: center;
+  float:left;
+  width: 33.3%;
 }
