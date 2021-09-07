@@ -1,96 +1,17 @@
-body{ background-image: url('back .png');
+body{ background-color: rgb(65, 167, 170);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: 50% 50%;
 }
 
-.card {
-  margin: 2rcm 2rcm 2rcm 0;
-  padding: 1.5rcm;
-  width: 250px;
-  z-index: 4;
-  margin-bottom: 2;
-  box-shadow: 0 0 4px  rgba(0,0,0,0.1);
-  transition:  transform .3s case;
-  cursor: pointer;
-
-
+.container{
+  width: 300px;
+  overflow: hidden;
+  box-shadow: 0px opx 15px -5px;
 }
 
-
-.card:hover {
-    transform: scale(1.1);
-
-} 
-
-.card__image {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.card__image__img {
-  border-radius: 50%;
-}
-
-
-.container {
-  padding: 2px 16px;
-}
-
-.all {
-  display: flex;
-  flex-direction: row;
-}
-
-.house
-{
-  position:absolute;
-  z-index: 1;
-}
-
-
-.logo
-{
-  position:absolute;
-  top: 25px;
-  left: 25px;
-  z-index: 2;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-
-}
-.text
-{
-  position: absolute;
-  top: 17px;
-  right: 70px;
-  z-index: 3;
-}
-
-
-
-#home { 
-  text-align: center;
-  float:left;
-  width: 33.30%;
-}
-
-
-#features { 
-  text-align: center;
-  float:left;
-  width: 33.3%;
-}
-
-#work { 
-  text-align: center;
-  float:left;
-  width: 33.3%;
-}
-
-#help { 
-  text-align: center;
-  float:left;
-  width: 33.3%;
+.image-container img{
+  overflow: hidden;
+  height: 200px;
+  
 }
