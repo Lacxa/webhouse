@@ -3,7 +3,7 @@ import './App.css';
 import Card from './components/Card';
 import './components/Card.css';
 import Greet from './components/Greet';
-
+import Footer from './components/Footer';
 
 function app() {
    
@@ -11,7 +11,8 @@ function app() {
 
       <div class='app'>
           <Greet/>
-          <Card />
+          <Card /><br/><br/><br/><br/>
+          <Footer />
         </div>
       
     );
