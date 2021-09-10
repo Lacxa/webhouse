@@ -11,7 +11,7 @@ function app() {
 
       <div class='app'>
           <Greet/>
-          <Card /><br/><br/><br/><br/>
+          <Card />
           <Footer />
         </div>
       
