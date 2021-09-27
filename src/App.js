@@ -5,6 +5,7 @@ import './components/Card.css';
 import Greet from './components/Greet';
 import Footer from './components/Footer';
 
+
 function app() {
    
     return (
@@ -13,8 +14,8 @@ function app() {
           <Greet/>
           <Card />
           <Footer />
-        </div>
-      
+      </div>
+       
     );
 }
 
