@@ -1,74 +1,110 @@
 body{
-	background-image: url("posta.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
+	background-color: whitesmoke;
 }
 
 .card{
-	width: 400px;
-	box-shadow: 0px 0px 15px -5px;
-	border-radius: 50px;
-	background-color: gray;
-	color: gainsboro;
-	text-align: center;
 	position: absolute;
-	margin: 4em 0em 0em 8em;
+	margin: 3em 0em 0em 8em;
+    text-decoration: none;
 }
 
+.card button{
+	border: 1px solid gainsboro;
+    padding: 10px 90px;
+    text-decoration: none;
+    margin-right: 5px;
+    background-color: gray;
+    font-size: 13px;
+    border-radius: 50px;
+    color: gainsboro;
+}
 
 .crd{
-	width: 400px;
-	box-shadow: 0px 0px 15px -5px;
-	border-radius: 50px;
-	background-color: gray;
-	color: gainsboro;
-	text-align: center;
 	position: absolute;
-	margin: 4em 0em 0em 50em;
+    text-decoration: none;
+	margin: 3em 0em 0em 50em;
 }
+
+.crd button{
+	border: 1px solid gainsboro;
+    padding: 10px 90px;
+    text-decoration: none;
+    margin-right: 5px;
+    background-color: gray;
+    font-size: 13px;
+    border-radius: 50px;
+    color: gainsboro;
+}
+
 
 .owa{
-	width: 400px;
-	box-shadow: 0px 0px 15px -5px;
-	border-radius: 50px;
-	background-color: gray;
-	color: gainsboro;
-	text-align: center;
-	position: absolute;
-	margin: 16em 0em 0em 8em;
+		position: absolute;
+    text-decoration: none;
+	margin: 14em 0em 0em 8em;
+
 }
 
+.owa  button{
+	border: 1px solid gainsboro;
+    padding: 10px 90px;
+    text-decoration: none;
+    margin-right: 5px;
+    background-color: gray;
+    font-size: 13px;
+    border-radius: 50px;
+    color: gainsboro;
+
+}
 
 .ow{
-	width: 400px;
-	box-shadow: 0px 0px 15px -5px;
-	border-radius: 50px;
-	background-color: gray;
-	color: gainsboro;
-	text-align: center;
-	position: absolute;
-	margin: 16em 0em 0em 50em;
+		position: absolute;
+    text-decoration: none;
+	margin: 14em 0em 0em 50em;
 }
+
+.ow button{
+	border: 1px solid gainsboro;
+    padding: 10px 90px;
+    text-decoration: none;
+    margin-right: 5px;
+    background-color: gray;
+    font-size: 13px;
+    border-radius: 50px;
+    color: gainsboro;
+}
+
 
 .o{
-	width: 400px;
-	box-shadow: 0px 0px 15px -5px;
-	border-radius: 50px;
-	background-color: gray;
-	color: gainsboro;
-	text-align: center;
 	position: absolute;
-	margin: 28em 0em 0em 8em;
+    text-decoration: none;
+	margin: 26em 0em 0em 8em;
 }
+
+.o button{
+	border: 1px solid gainsboro;
+    padding: 10px 90px;
+    text-decoration: none;
+    margin-right: 5px;
+    background-color: gray;
+    font-size: 13px;
+    border-radius: 50px;
+    color: gainsboro;
+    }
 
 .h{
-	width: 400px;
-	box-shadow: 0px 0px 15px -5px;
-	border-radius: 50px;
-	background-color: gray;
-	color: gainsboro;
-	text-align: center;
 	position: absolute;
-	margin: 28em 0em 0em 50em;
+    text-decoration: none;
+	margin: 26em 0em 0em 50em;
 }
 
+.h button{
+	border: 1px solid gainsboro;
+    padding: 10px 90px;
+    text-decoration: none;
+    margin-right: 5px;
+    background-color: gray;
+    font-size: 13px;
+    border-radius: 50px;
+    color: gainsboro;
+
+}

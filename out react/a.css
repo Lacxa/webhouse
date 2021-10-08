@@ -1,6 +1,6 @@
 .register{
-	width: 320px;
-    height: 480px;
+	width: 720px;
+    height: 430px;
     background: gray;
     color: gainsboro;
     top: 50%;
@@ -12,41 +12,16 @@
     border-radius: 100px 0px 50px 0px;
 }
 
-.register input{
-	width: 110%;
-    border: none;
-    border-bottom: 1px solid whitesmoke;
-    background: transparent;
-    outline: none;
-    height: 30px;
-    color: antiquewhite;
-    font-size: 16px;
-}
 
-::placeholder{
-	color: gainsboro;
-	font-size: 12px;
-}
-
-.register button{
-	 border: 1px solid gainsboro;
-    padding: 10px 80px;
-    text-decoration: none;
-    margin-right: 5px;
-    font-size: 13px;
-    text-transform: uppercase;
-    border-radius: 50px;
-    color: gray;
-}
 .register select{   
-    width: 110%;
+    width: 80%;
     border: none;
     border-bottom: 1px solid whitesmoke;
     background: transparent;
     outline: none;
-    height: 30px;
     color: antiquewhite;
     font-size: 16px;
+    margin: 4em 0em 0em 0em;
 }    
 
 
@@ -54,3 +29,5 @@
     color: gray;
     background-color: gainsboro;
 }
+
+

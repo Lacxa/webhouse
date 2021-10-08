@@ -1,62 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>hih</title>
-	<link rel="stylesheet" type="text/css" href="a.css">
+<meta charset="utf-8">
+<title>hoi</title>
+<link rel="stylesheet" type="text/css" href="a.css">
 </head>
 <body>
-	<center>
-	<form>
+<center>
+<form name="jojo">
 
-		<div class="register">
-							<h1>HOSTELS</h1>	
-							<h3>Register here!</h3>
-			<table>
-			<tr>
-				<td><b>Full name</b></td>
-			</tr>
-			<tr>
-				<td>
-			<input type="text" placeholder="e.g John Doe">
-				</td>
-			</tr>
-			<tr>
-				<td><b>Phone No</b></td>
-			</tr>
-			<tr>
-				<td>
-			<input type="text" placeholder="e.g 07xxxxxxxx">
-				</td>
-			</tr>
-			<tr>
-				<td><b>Universite Name</b></td>
-				</tr>
-			<tr>
-			<td>
+	<div class="register">
+						<h1>HOSTELS</h1>	
+						<h3 style="font-size: 30px;">Choose Ur College or University!</h3>
+	
+		<select id="alphoo">
+			<option value="nothing" selected="selected"></option>
+			<option value="UDSM.html">UDSM</option>
+			<option value="nit.html">NIT</option>
+			<option value="dit.html">DIT</option>
+			<option value="ifm.html">IFM</option>
+			<option value="tiaa.html">TIAA</option>
+		</select>
+	
 
-			<select>
-				<option></option>
-				<option>UDSM</option>
-				<option>NIT</option>
-				<option>DIT</option>
-				<option>IFM</option>
-				<option>CCOHAS</option>
-			</select>
-			</td>
-			</tr>
-		</table><br><br>
-
-		<a href="hostelname.html"><button type="button" onclick="a('hello there')"><b>Submit</b></button></a>  
-		<script type="text/javascript">
-			function a(message){
-				alert(message)
+	<script type="text/javascript">
+			var urlMenu = document.getElementById("alphoo");
+			urlMenu.onchange = function (){
+				var userOption = this.options[this.selectedIndex];
+				if (userOption.value != "nothing"){
+					window.open(userOption.value, "hostel", "");
+				}
 			}
 		</script>
-		</div>
-	</form>
-
+	</div>
+</form>
 </center>
-
 </body>
-</html>
+</htm>
