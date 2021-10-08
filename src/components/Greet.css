@@ -1,0 +1,26 @@
+.house{
+  position: absolute;
+  width: 1351px;
+  height: 200px;
+  z-index: 1;
+}
+
+.main{
+  position: absolute;
+  float: left;
+  list-style: none;
+  margin-top: 30px;
+  z-index: 2;
+}
+
+.main li{
+  display: inline-block;
+}
+
+.main li a{
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}

@@ -1,0 +1,14 @@
+.kama-pelle img{
+    position: relative;
+    height: 250px;
+    width: 1351px;
+    top: 250px;
+}
+
+.mapenzi{
+    position: relative;
+    color: gainsboro;
+    text-align: center;
+    font-size: 100px;
+    font-family: "Roboto" sans-serif;
+}

@@ -1,0 +1,103 @@
+.yote{
+    position: absolute;
+    z-index: 3;
+    top: 200px;
+    color:rgb(77, 71, 71);
+    right: 300px;
+    text-align: center;
+}
+
+.yote p{
+    position: relative;
+    top: 3px;
+    
+}
+
+body{
+    background-color: gainsboro;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.container{
+width: 190px;
+overflow: hidden;
+box-shadow: 0px 0px 15px -5px;
+transition: 0.3s;
+animation: ease-in;
+border-radius: 5%;
+float: right;
+margin: 2em -13em 2em 20em;
+top: 200px;
+right: 500px;
+position: relative;
+}
+
+.image-container img{
+overflow: hidden;
+height: 200px;
+}
+
+
+.container:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+
+.image-container h3 {
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    
+}
+.button button{
+    border: none;
+    background-color: gainsboro;
+}
+
+.button:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;   
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.cont{
+width: 190px;
+overflow: hidden;
+box-shadow: 0px opx 15px -5px;
+transition: 0.3s;
+animation: ease-in;
+border-radius: 5%;
+float: right;
+margin: 2em -30em -0.5em 2em;
+top: 580px;
+right: 300px;
+position: relative;
+}
+
+.image-cont img{
+    overflow: hidden;
+    height: 200px;
+    }
+    
+    
+.cont:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+    }
+    
+.image-cont h3{
+    text-align: center;
+    }
+
+.juju {
+    text-align: center;
+}
