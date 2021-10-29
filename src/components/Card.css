@@ -1,7 +1,7 @@
 .yote{
     position: absolute;
     z-index: 3;
-    top: 200px;
+    top: 700px;
     color:rgb(77, 71, 71);
     right: 300px;
     text-align: center;
@@ -15,6 +15,7 @@
 
 body{
     background-color: gainsboro;
+    height:200%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -29,7 +30,7 @@ animation: ease-in;
 border-radius: 5%;
 float: right;
 margin: 2em -13em 2em 20em;
-top: 200px;
+top: 800px;
 right: 500px;
 position: relative;
 }

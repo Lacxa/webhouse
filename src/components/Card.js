@@ -30,7 +30,7 @@ const user = () => {
             <div class="image-container">
               <img src={h} />
               <div class='button'>
-                <button onClick="go()">
+                <button>
                     <h3>APPARTMENTS</h3>
                  </button>
               </div>
